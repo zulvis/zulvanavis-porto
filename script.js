@@ -37,9 +37,13 @@ sidebar.innerHTML = `
   <div class="sidebar-bottom">
     <label class="theme-control"><span class="theme-label"><span class="theme-icon" aria-hidden="true">◐</span><span class="theme-text">Dark Mode</span></span><input id="theme-toggle" type="checkbox" aria-label="Aktifkan dark mode"><i class="switch"></i></label>
     <p class="side-caption">BASED IN</p><p>Malang, Indonesia</p>
-    <p class="side-caption" style="margin-top:12px">SOCIAL NETWORKS</p><div class="social-links"><a href="https://www.linkedin.com/in/muhammad-zulva-navis/" aria-label="LinkedIn">
-    <img src="${basePath}assets/asset.linkedin.svg" alt=""></a>
-  </div>
+    <p class="side-caption" style="margin-top:12px">SOCIAL NETWORKS</p>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/muhammad-zulva-navis/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+        <img src="${basePath}assets/asset.linkedin.svg" alt="">
+      </a>
+    </div>
+  </div>`;
 
 const themeToggle = document.querySelector('#theme-toggle');
 try {
