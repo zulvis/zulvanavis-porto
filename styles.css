@@ -91,3 +91,4 @@ body.dark .intro-card>p:not(.eyebrow),body.dark .timeline-card ul,body.dark .lea
 @media(max-width:390px){.main-content{padding-inline:17px}.mobile-topbar{padding-inline:13px}}
 .social-links {display: flex; align-items: center; gap: 10px;}
 .social-links img {display: block; width: 28px; height: 28px; object-fit: contain;}
+.sidebar .social-links img {width: 28px; height: 28px; object-fit: contain;}
