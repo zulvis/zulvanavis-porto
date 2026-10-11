@@ -40,7 +40,7 @@ sidebar.innerHTML = `
     <p class="side-caption" style="margin-top:12px">SOCIAL NETWORKS</p>
 <div class="social-links">
   <a href="https://www.linkedin.com/in/muhammad-zulva-navis/" aria-label="LinkedIn">
-    <img src="${basePath}assets/icon-linkedin.svg" alt="">
+    <img src="${basePath}assets/asset.linkedin.svg" alt="">
   </a>
 </div>
 
