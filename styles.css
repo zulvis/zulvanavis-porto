@@ -51,6 +51,7 @@ body.dark .intro-card>p:not(.eyebrow),body.dark .timeline-card ul,body.dark .lea
 .mobile-topbar{display:none}
 .sidebar-backdrop{display:none}
 @media(min-width:701px){
+  body:not(.sidebar-collapsed) .identity .avatar{width:104px;height:104px}
   body.sidebar-collapsed .sidebar{width:82px;padding:18px 10px}
   body.sidebar-collapsed .main-content{margin-left:124px;max-width:calc(1600px - 92px)}
   body.sidebar-collapsed .sidebar-collapse span{transform:rotate(180deg)}
