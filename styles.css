@@ -40,7 +40,7 @@
 .record-row{display:flex;align-items:flex-start;justify-content:space-between;gap:28px}
 .record-main{display:flex;align-items:center;gap:15px;min-width:0}
 .record-logo{display:grid;place-items:center;flex:0 0 56px;width:56px;height:56px;border:1px solid var(--line);border-radius:14px;background:var(--surface-soft)}
-.record-logo img{display:block;width:42px;height:42px;object-fit:contain}
+.record-logo img{display:block;width:50px;height:50px;object-fit:contain}
 .record-copy{min-width:0}
 .record-kicker{display:block;margin-bottom:4px;color:var(--muted);font-size:9px;font-weight:750;letter-spacing:.13em}
 .record-copy h2{margin:0 0 3px;font-size:clamp(1.05rem,1.7vw,1.32rem);letter-spacing:-.025em}
@@ -60,7 +60,7 @@
 .record-details-content ul{margin:0;padding-left:19px}
 .record-details-content li+li{margin-top:6px}
 .record-details-content .highlight-stat{max-width:400px}
-@media(max-width:700px){.record-card{padding:17px}.record-row{display:grid;grid-template-columns:minmax(0,1fr);gap:14px}.record-main{gap:12px}.record-logo{flex-basis:48px;width:48px;height:48px;border-radius:12px}.record-logo img{width:27px;height:27px}.record-meta{grid-template-columns:repeat(2,minmax(0,1fr));justify-items:start;flex-basis:auto;gap:8px 12px;padding:0;text-align:left}.record-meta-line{justify-items:start}}
+@media(max-width:700px){.record-card{padding:17px}.record-row{display:grid;grid-template-columns:minmax(0,1fr);gap:14px}.record-main{gap:12px}.record-logo{flex-basis:48px;width:48px;height:48px;border-radius:12px}.record-logo img{width:42px;height:42px}.record-meta{grid-template-columns:repeat(2,minmax(0,1fr));justify-items:start;flex-basis:auto;gap:8px 12px;padding:0;text-align:left}.record-meta-line{justify-items:start}}
 @media(max-width:390px){.record-meta{grid-template-columns:1fr}.record-copy h2{font-size:1rem}.record-copy p{font-size:12px}}
 
 
