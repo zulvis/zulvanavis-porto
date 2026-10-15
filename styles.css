@@ -179,4 +179,4 @@ body[data-page="projects"] .project-resources a,body[data-page="projects"] .proj
 body[data-page="projects"] .project-resources a{color:var(--accent);font-weight:750}
 @media(min-width:701px) and (max-width:1000px){body[data-page="projects"] .projects-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:700px){body[data-page="projects"] .projects-grid{grid-template-columns:minmax(0,1fr);gap:14px}body[data-page="projects"] .project-cover{min-height:170px}}
-body[data-page="projects"] .project-highlights {padding-left: 5px;}
+body[data-page="projects"] .project-highlights {padding-left: 12px;}
