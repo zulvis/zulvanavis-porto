@@ -224,3 +224,7 @@ body[data-page="certificates"] .certificate-preview--portrait{isolation:isolate;
 body[data-page="certificates"] .certificate-preview--portrait::before{position:absolute;inset:-12px;z-index:-1;content:"";background-image:var(--certificate-preview-image);background-position:center;background-size:cover;filter:blur(16px);opacity:.28;transform:scale(1.08)}
 body[data-page="certificates"] .certificate-preview--portrait img{position:relative;width:auto;height:100%;max-width:100%;max-height:100%;box-shadow:0 2px 12px rgb(22 35 30 / 22%)}
 body[data-page="certificates"] .certificate-related-link{display:inline-flex;margin-top:7px;font-size:11px}
+body[data-page="projects"] .project-cover:has(> img)::before,
+body[data-page="projects"] .project-cover:has(> img)::after {
+  display: none;
+}
