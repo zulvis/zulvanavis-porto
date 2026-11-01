@@ -42,7 +42,7 @@ sidebar.innerHTML = `
       <a href="https://www.instagram.com/zulva_navis" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
         <img src="${basePath}assets/asset.instagram.svg" alt="">
       </a>
-      <a href="https://www.linkedin.com/in/muhammad-zulva-navis/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.linkedin.com/in/zulvanavis/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
         <img src="${basePath}assets/asset.linkedin.svg" alt="">
       </a>
     </div>
